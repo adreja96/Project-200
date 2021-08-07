@@ -1,0 +1,428 @@
+ n@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+  }
+  
+  #body{
+	background-image: url("MU.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: auto;
+  }
+  
+  .btn {
+	background-color:blue;
+	color: whitesmoke;
+	width: 200px;
+	height: 60px;
+	font-size: 1.5em;
+	margin-left: 500px;
+	margin-top: 100px;
+	border-radius: 15px;
+	font-weight: bolder;
+	cursor: pointer;
+	}
+	.btn:hover {
+		background-color: #9D0029;
+		color: whitesmoke;
+		}
+	.title-p{
+		color:#9D0029;
+		font-size: 23px;
+		font-weight: bolder;
+		margin-top: 200px;
+	}
+	.title{
+		color: blue;
+		font-weight: bold;
+		font-size: 60px;
+		text-align: center;
+        position: relative;
+			top: 150px; 
+			
+	}
+	.container {
+		padding: 16px;
+	}
+	.overlay{
+  
+		height: 900px;
+		width: auto;
+		background:rgb 0,0 0;
+	
+	
+	}
+	
+	.welcome{
+		height: 100%;
+		width: auto;
+		background-repeat: no-repeat;
+		background-position: center;
+		
+	
+	} 
+	body{
+		background:skyblue;
+		font-family: 'Josefin Sans', sans-serif;
+	  }
+	  
+  
+  .wrapper{
+  margin-top: 10%;
+  }
+  
+  .wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+  Color:Blak;
+  }
+  .CR{
+	display: flex;
+	justify-content: center;
+	width: auto;
+	text-align: center;
+	flex-wrap: wrap;
+  }
+  
+  .CR .CR_member{
+	background: #fff;
+	margin: 5px;
+	margin-bottom: 50px;
+	width: 300px;
+	padding: 10px;
+	line-height: 20px;
+	color: #8e8b8b;  
+	position: relative;
+  }
+  
+  .CR .CR_member h3{
+	color: #81c644;
+	font-size: 26px;
+	margin-top: 50px;
+  }
+  
+  .CR .CR_member p.role{
+	color: #ccc;
+	margin: 12px 0;
+	font-size: 12px;
+	text-transform: uppercase;
+  }
+  
+  .CR .CR_member.CR_img{
+	position: absolute;
+	top: -50px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: #fff;
+  }
+  .CR .CR_member .CR_img img{
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+  }
+  #customers {
+	font-family: sans-serif;
+	border-radius: 1px;
+	width: 100%;
+   
+	}
+	
+	#customers td, #customers th {
+	border: 2px dashed black;
+	padding: 5px;
+	border-radius: 10px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	#customers th {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	background-color: whitesmoke;
+	color: black;
+	font-size: 1.4em;
+  
+	}
+	#customers td
+	{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color:skyblue;
+	color:black;
+	font-size: 1.1em; 
+	
+	}
+	.title-2p
+	{ 
+	color:black;
+	font-size: 35px;
+	margin-top: 40px;
+	text-align: center;
+	}
+	.title2{
+	color: #9D0029;
+	font-weight: bold;  
+	font-size: 80px;
+  font-family:cursive;
+	text-align: center;
+	margin-top: 100px;
+	}
+	
+	   
+	
+	#div1{
+	  text-align:center;
+	  color:white;
+	  font-size:28px;
+	font-family:fantasy;
+	}
+	#div2{
+	  text-align:center;
+	  color:white;
+	  font-size:28px;
+	font-family:fantasy;
+	}
+	#div3{
+	  text-align:center;
+	  color:white;
+	  font-size:28px;
+	font-family:fantasy;
+	}
+	#div4 {
+	  text-align:center;
+	  color:white;
+	  font-size:28px;
+	font-family:fantasy;
+	}
+	#div5{
+	  text-align:center;
+	  color:white;
+	  font-size:28px;
+	 
+	font-family:fantasy;
+	}
+
+	.title3{
+	  margin-top:990px;
+	  margin-bottom: 100px;
+	 color: #9D0029;
+	 font-weight: bold;
+	 font-size: 80px;
+	font-family:cursive;
+	 text-align: center;
+	 }
+	 
+	 .title4{
+		 color:Black;
+		 font-weight: bold;
+		 font-size: 25px;
+		 text-align: center;
+
+	
+	 }
+	
+
+
+
+	 .titleX{
+
+		color: #9D0029;
+		font-weight: bold;
+		font-size: 50px;
+	   font-family:cursive;
+	   text-align:center;
+	   margin-top: 200px;
+		}
+   * {box-sizing: border-box;}
+   body {font-family: Verdana, sans-serif;}
+   .mySlides {display: none;}
+   img {vertical-align: middle;}
+   
+   /* Slideshow container */
+   .slideshow-container {
+	 max-width: 1000px;
+	 position: relative;
+	 margin: auto;
+   }
+   
+   /* Caption text */
+   .text {
+	 color:  #9D0029;
+	 font-size: 25px;
+	 font-weight: bolder ;
+   
+	 padding: 8px 12px;
+	 position: absolute;
+	 bottom: 8px;
+	 width: 100%;
+	 text-align: center;
+   }
+   
+   /* Number text (1/7 etc) */
+   .numbertext {
+	 color: #f2f2f2;
+	 font-size: 12px;
+	 padding: 8px 12px;
+	 position: absolute;
+	 top: 0;
+   }
+   
+   /* The dots/bullets/indicators */
+   .dot {
+	 height: 15px;
+	 width: 15px;
+	 margin: 0 2px;
+	 background-color: #bbb;
+	 border-radius: 50%;
+	 display: inline-block;
+	 transition: background-color 0.6s ease;
+   }
+   
+   .active {
+	 background-color: #717171;
+   }
+   
+   /* Fading animation */
+   .fade {
+	 -webkit-animation-name: fade;
+	 -webkit-animation-duration: 1.5s;
+	 animation-name: fade;
+	 animation-duration: 1.5s;
+   }
+   
+   @-webkit-keyframes fade {
+	 from {opacity: .4} 
+	 to {opacity: 1}
+   }
+   
+   @keyframes fade {
+	 from {opacity: .4} 
+	 to {opacity: 1}
+   }
+   
+   /* On smaller screens, decrease text size */
+   @media only screen and (max-width: 300px) {
+	 .text {font-size: 11px}
+   }
+   .title-Y{
+	margin-top: 100px;
+	margin-bottom:-50px;
+   color: #000000;
+   font-weight: bold;
+   font-size: 80px;
+   text-align: center;
+   }
+   .title-Z{
+color:black;
+font-size: 23px;
+font-weight: bolder;
+margin-top: 100px;
+   } 
+   button{
+	position:relative;
+	height: 60px;
+	width: 200px;
+	margin-left: 500px;
+	margin-top: 10px;
+	border: none;
+	outline: none;
+	color: white;
+	background: #111;
+	cursor: pointer;
+	border-radius:15px;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+  }
+  button:before{
+	position: absolute;
+	content: '';
+	top: -2px;
+	left: -2px;
+	height: calc(100% + 4px);
+	width: calc(100% + 4px);
+	border-radius: 5px;
+	z-index: -1;
+
+	opacity: 0;
+	filter: blur(5px);
+	background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+	background-size: 400%;
+	transition: opacity .3s ease-in-out;
+	animation: animate 30s linear infinite;
+  }
+  button:hover:before{
+	opacity: 1;
+  }
+  .ft{
+	  background-color: #000000;
+	
+  bottom: 0px;
+ 
+  width: 100%;
+  background:black;
+  }
+  .senapoti{
+	  text-align: center;
+	  color:#ccc;
+	  font-size: 25px;
+	  font-family: cursive;
+
+  }
+  .Adreja1{
+	margin: 130px auto;
+	text-align: center;
+
+
+  }
+  
+  
+  .box h2{
+	font-size: 1.125rem;
+	font-weight: 600;
+	text-transform: uppercase;
+  }
+  .box .Adreja{
+	margin: 20px 0 0 0;
+	position: relative;
+  }
+  .box .Adreja::before{
+	position:absolute;
+	content: '';
+	top: -10px;
+	height: 2px;
+	width: 100%;
+	background: white;
+  }
+ 
+  .center .Adreja p{
+	text-align: center;
+  }
+  
+
+  
+  .A{
+	  color: whitesmoke;
+	  text-align: center;
+  }
+ 
+
+
+
+
+
+ 
+
+  
